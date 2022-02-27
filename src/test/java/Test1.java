@@ -1,5 +1,3 @@
-package test;
-
 import sym.symplotlib.Plot;
 
 class Test1
