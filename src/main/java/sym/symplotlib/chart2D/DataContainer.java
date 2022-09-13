@@ -209,7 +209,7 @@ class DataContainerTool
 	{
 		try
 		{
-			Integer d = Integer.parseInt(strNum);
+			Integer d = Integer.decode(strNum);
 		}
 		catch (NumberFormatException nfe)
 		{
@@ -228,7 +228,7 @@ class DataContainerTool
 		}
 		else if(isInteger(arg))
 		{
-			data.color = Integer.parseInt(arg);
+			data.color = Integer.decode(arg);
 		}
 		else if(colorMap.get(arg) != null)
 		{
